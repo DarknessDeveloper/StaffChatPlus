@@ -1,0 +1,15 @@
+messages:
+    format: "&4[&eStaffChatPlus&4] &c{0} ({1}): &r{2}"
+    no-permission: "&cInsufficient Permission! You require {0}!"
+    no-channel-permission: "&cYou don't have permission to join that channel! You require {0}!"
+    join:
+        channel-no-longer-exists: "&cThe staff channel you were in previously no longer exists. You have been moved to global chat (Not global staff chat!)"
+    commands:
+        not-player: "&cYou must be a player to use that command."
+        left-staff-chat: "&7You are no longer in staff chat."
+        joined-global-staff-chat: "&aYou are now in the global staff chat."
+        joined-channel: "&aYou joined the &c{0} &astaff chat channel."
+        nonexistant-channel: "&cThat staff channel does not exist."
+        reload:
+            success: "&aReloaded all configs!"
+    

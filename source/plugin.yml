@@ -1,0 +1,17 @@
+main: net.dxtrus.staffchatplus.StaffChatPlus
+name: StaffChatPlus
+version: 1.0.0.0-SNAPSHOT
+authors: [DxtrusJonesy]
+
+commands:
+    staffchatplus:
+        aliases: [scplus]
+        description: Enter/Leave staff chat or reload configs.
+        usage: /<command> [channel name | reload]
+        permission: staffchatplus.use
+
+permissions:
+    staffchatplus.use:
+        default: op
+    staffchatplus.reload:
+        default: op

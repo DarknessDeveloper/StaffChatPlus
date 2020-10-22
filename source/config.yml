@@ -1,0 +1,13 @@
+# Should players stay in their staff channels after a server reload/restart?
+channel-persistence: true
+
+# There will always be a pre-defined channel named "global", although it won't be in this config.
+channels:
+    moderators:
+        permission: staffchatplus.channel.moderators
+    admins:
+        permission: staffchatplus.channel.admins
+    managers:
+        permission: staffchatplus.channel.managers
+    owners:
+        permission: staffchatplus.channel.owners
